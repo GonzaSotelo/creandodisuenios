@@ -1,0 +1,99 @@
+.header__index {
+    background-color: #7A82AB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header__logo {
+    max-width: 9vw;
+    margin: 0 2vw;
+}
+
+.container__logo {
+    display: flex;
+    align-items: center;
+}
+
+.container__logo h3 {
+    color: #ffffff;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 4vw;
+}
+
+.header__menu {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    top: 7vh; /* Justo debajo del header */
+    right: 0vw;
+    background-color: #7A82AB;
+    width: 100%; /* Ajusta según el diseño */
+    height: 39%;
+    padding: 1vw;
+    border-radius: 0 0 9px 9px;
+}
+
+.header__menu.active {
+    display: flex;
+    z-index: 100;
+}
+
+.container__menu i {
+    color: #fff;
+    margin-right: 3vw;
+    font-size: 6vw;
+}
+
+@media (min-width: 768px) {
+    .header__index {
+        height: 11vh;
+    }
+    .container__menu i {
+        font-size: 4vw;
+    }
+
+    .container__logo h3 {
+        font-size: 3vw;
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+    .container__menu i {
+        display: none;
+    }
+}
+ @media (min-width: 1024px) {
+    .header__menu {
+        display: flex; /* Siempre visible en pantallas más grandes */
+        position: static;
+        flex-direction: row;
+        background-color: transparent;
+        width: auto;
+    }
+ 
+    .container__menu li {
+        margin: 0 2vw;
+        font-size: 2vw;
+    }
+    .header__logo {
+        width: 5vw;
+    }
+
+}
+
+@media (min-width: 1250px) {
+    .header__index{
+        height: 9vh;
+    }
+ .header__logo {width: 4vw;}
+ .container__logo h3 {font-size: 2vw;}
+ .header__menu li {font-size: 1.2vw;}
+ 
+}

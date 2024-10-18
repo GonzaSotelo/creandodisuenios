@@ -1,0 +1,126 @@
+.section__cards {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article__card {
+
+margin: 3vw auto;
+
+background-color: #ffffff;
+
+display: flex;
+
+border: 1vw solid #C6D4FF;
+
+justify-content: space-evenly;
+
+flex-direction: column;
+
+width: 85vw;
+}
+
+
+.header__filtro{
+
+background-color: #C6D4FF;
+
+width: 100%;
+
+padding: 3vw;
+
+display: flex;
+
+justify-content: space-around;
+}
+.filtro__categorias button{
+    
+border: none;
+    
+padding: 0.6vw;
+    
+border-radius: 6px;
+}
+.article__seach {
+
+border: none;
+
+padding: 0.5vw;
+
+border-radius: 8px;
+}
+.seach__button {
+
+text-align: center;
+
+border: none;
+
+background: none;
+
+position: relative;
+
+margin-left: -8vw;
+
+font-size: 3vw;
+}
+.seach__button i {
+}
+
+
+article img {
+
+max-width: 57vw;
+
+margin: 0 auto;
+}
+
+.acticle__description {
+
+text-align: center;
+
+padding: 1em;
+
+background-color: #C6D4FF;
+}
+.description__header {display: flex;justify-content: space-between;margin-bottom: 3vw;}
+
+.icono__article {
+
+display: flex;
+
+justify-content: end;
+
+margin-right: 3vw;
+}
+.icono__article i {
+    
+background-color: #2DC2BD;
+    
+padding: 3vw;
+    
+border-radius: 50%;
+    
+margin: 2vw 0;
+    
+display: flex;
+    
+align-items: center;
+    
+font-size: 4.5vw;
+}
+.icono__article h4 {
+    
+background-color: #2DC2BD;
+    
+margin: 3vw -9px;
+    
+width: 45vw;
+    
+padding: 1vw 1vw 1vw 3vw;
+    
+border-radius: 6px 0 0 6px;
+    
+display: none;
+}
+.acticle__description p {}

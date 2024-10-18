@@ -1,0 +1,28 @@
+.main__contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 85vh;
+  
+}
+
+.main__contacto section {
+    background-color: #f3d6b0;
+}
+
+.main__contacto label {
+    color: #00000066;
+}
+
+.main__contacto section {
+    width: 81vw;
+    height: 67vh;
+    padding: 7vw;
+}
+.main__contacto h2{
+    text-align: center;
+}
+.main__contacto p {
+    text-align: center;
+}
