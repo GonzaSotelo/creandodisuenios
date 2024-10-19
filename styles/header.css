@@ -29,6 +29,7 @@
     flex-direction: column;
     justify-content: space-around;
     position: absolute;
+    text-align: center;
     top: 7vh; /* Justo debajo del header */
     right: 0vw;
     background-color: #7A82AB;

@@ -124,3 +124,33 @@ border-radius: 6px 0 0 6px;
 display: none;
 }
 .acticle__description p {}
+
+@media (min-width: 768px) {
+    
+    .seach__button {
+        font-size: 1.5vw;
+        margin-left: -3vw;
+    }
+    .article__card{
+        width: 34vw;
+    }
+    .section__cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .icono__article i {
+        font-size: 2vw;
+        padding: 1.5vw;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .article__card{
+        width: 30vw;
+    }
+    .icono__article i {
+        font-size: 1.5vw;
+        padding: 1vw;
+    }
+}
