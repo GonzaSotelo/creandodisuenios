@@ -52,7 +52,7 @@
 
 @media (min-width: 768px) {
     .header__index {
-        height: 11vh;
+        height: 8vh;
     }
     .container__menu i {
         font-size: 4vw;
