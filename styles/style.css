@@ -11,3 +11,5 @@ font-family: "Dancing Script", cursive;
 @import url(header.css);
 @import url(contacto.css);
 @import url(productos.css);
+@import url(index.css);
+@import url(footer.css);

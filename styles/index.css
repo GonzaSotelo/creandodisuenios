@@ -1,0 +1,37 @@
+
+.banner-index img {
+    width: 100%;
+    height: 23vh;
+}
+.article__index-cd {
+    background-color: #C6D4FF;
+    text-align: center;
+    padding: 2vh 10vw;
+    width: 88vw;
+    margin: 2vh auto;
+    border-radius: 14px;
+}
+.article__index-cd h3 {}
+.article__index-cd p {margin-top: 3vh;}
+.article_maps iframe {
+    width: 100%;
+}
+@media (min-width: 768px) {
+    .article__index-cd {
+        width: 94vw;
+    }
+
+
+}
+@media (min-width: 1024px) {
+.banner-index img {
+    height: 31vh;
+}
+
+}
+@media (min-width: 1250px) {
+    .banner-index img {
+        height: 38vh;
+    }
+
+}
